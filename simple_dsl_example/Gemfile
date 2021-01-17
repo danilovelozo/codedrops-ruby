@@ -1,0 +1,7 @@
+# frozen_string_literal: true
+
+gem 'rails'
+
+if ENV['RAILS_ENV'] == 'development'
+  gem 'rubocop'
+end
